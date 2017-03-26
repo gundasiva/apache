@@ -9,9 +9,6 @@ gem 'facter', '>= 1.7.0'
 gem 'rspec-puppet'
 gem 'beaker'
 gem 'beaker-rspec'
-gem 'test-kitchen'
-gem 'kitchen-puppet'
-gem 'librarian-puppet'
 gem 'puppet-blacksmith'
 
 # rspec must be v2 for ruby 1.8.7
