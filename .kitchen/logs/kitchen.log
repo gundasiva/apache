@@ -1,0 +1,64 @@
+E, [2017-03-26T12:29:46.791975 #4216] ERROR -- Kitchen: ------Exception-------
+E, [2017-03-26T12:29:46.792091 #4216] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2017-03-26T12:29:46.792114 #4216] ERROR -- Kitchen: Message: Vagrant 1.1.0 or higher is not installed. Please download a package from http://www.vagrantup.com/downloads.html.
+E, [2017-03-26T12:29:46.792129 #4216] ERROR -- Kitchen: ----------------------
+E, [2017-03-26T12:29:46.792140 #4216] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-03-26T12:29:46.792151 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-1.0.2/lib/kitchen/driver/vagrant.rb:503:in `rescue in vagrant_version'
+E, [2017-03-26T12:29:46.792163 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-1.0.2/lib/kitchen/driver/vagrant.rb:499:in `vagrant_version'
+E, [2017-03-26T12:29:46.792174 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-1.0.2/lib/kitchen/driver/vagrant.rb:167:in `verify_dependencies'
+E, [2017-03-26T12:29:46.792185 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/driver.rb:43:in `for_plugin'
+E, [2017-03-26T12:29:46.792196 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:233:in `new_driver'
+E, [2017-03-26T12:29:46.792208 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:246:in `new_instance'
+E, [2017-03-26T12:29:46.792219 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:142:in `block in build_instances'
+E, [2017-03-26T12:29:46.792230 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `map'
+E, [2017-03-26T12:29:46.792241 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `with_index'
+E, [2017-03-26T12:29:46.792252 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2017-03-26T12:29:46.792263 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:117:in `instances'
+E, [2017-03-26T12:29:46.792273 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2017-03-26T12:29:46.792284 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2017-03-26T12:29:46.792295 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/command/list.rb:30:in `call'
+E, [2017-03-26T12:29:46.792334 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2017-03-26T12:29:46.792346 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:121:in `list'
+E, [2017-03-26T12:29:46.792357 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2017-03-26T12:29:46.792367 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-03-26T12:29:46.792378 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2017-03-26T12:29:46.792389 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2017-03-26T12:29:46.792399 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2017-03-26T12:29:46.792410 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-03-26T12:29:46.792425 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2017-03-26T12:29:46.792437 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-03-26T12:29:46.792448 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/bin/kitchen:23:in `load'
+E, [2017-03-26T12:29:46.792459 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/bin/kitchen:23:in `<main>'
+E, [2017-03-26T12:29:46.792470 #4216] ERROR -- Kitchen: ----End Backtrace-----
+E, [2017-03-26T12:29:46.792480 #4216] ERROR -- Kitchen: ---Nested Exception---
+E, [2017-03-26T12:29:46.792491 #4216] ERROR -- Kitchen: Class: Errno::ENOENT
+E, [2017-03-26T12:29:46.792502 #4216] ERROR -- Kitchen: Message: No such file or directory - vagrant
+E, [2017-03-26T12:29:46.792513 #4216] ERROR -- Kitchen: ----------------------
+E, [2017-03-26T12:29:46.792524 #4216] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-03-26T12:29:46.792535 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-1.0.2/lib/kitchen/driver/vagrant.rb:503:in `rescue in vagrant_version'
+E, [2017-03-26T12:29:46.792546 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-1.0.2/lib/kitchen/driver/vagrant.rb:499:in `vagrant_version'
+E, [2017-03-26T12:29:46.792570 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-1.0.2/lib/kitchen/driver/vagrant.rb:167:in `verify_dependencies'
+E, [2017-03-26T12:29:46.792582 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/driver.rb:43:in `for_plugin'
+E, [2017-03-26T12:29:46.792593 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:233:in `new_driver'
+E, [2017-03-26T12:29:46.792604 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:246:in `new_instance'
+E, [2017-03-26T12:29:46.792616 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:142:in `block in build_instances'
+E, [2017-03-26T12:29:46.792627 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `map'
+E, [2017-03-26T12:29:46.792638 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `with_index'
+E, [2017-03-26T12:29:46.792649 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2017-03-26T12:29:46.792660 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:117:in `instances'
+E, [2017-03-26T12:29:46.792670 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2017-03-26T12:29:46.792681 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2017-03-26T12:29:46.792692 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/command/list.rb:30:in `call'
+E, [2017-03-26T12:29:46.792703 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2017-03-26T12:29:46.792714 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:121:in `list'
+E, [2017-03-26T12:29:46.792725 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2017-03-26T12:29:46.792736 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-03-26T12:29:46.792751 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2017-03-26T12:29:46.792762 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2017-03-26T12:29:46.792773 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2017-03-26T12:29:46.792784 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-03-26T12:29:46.792798 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2017-03-26T12:29:46.792828 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/lib/ruby/gems/2.1.0/gems/test-kitchen-1.16.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-03-26T12:29:46.792844 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/bin/kitchen:23:in `load'
+E, [2017-03-26T12:29:46.792855 #4216] ERROR -- Kitchen: /opt/puppetlabs/puppet/bin/kitchen:23:in `<main>'
+E, [2017-03-26T12:29:46.792866 #4216] ERROR -- Kitchen: ----End Backtrace-----
