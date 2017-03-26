@@ -11,7 +11,6 @@ gem 'beaker'
 gem 'beaker-rspec'
 gem 'test-kitchen'
 gem 'kitchen-puppet'
-gem 'kitchen-vagrant'
 gem 'librarian-puppet'
 gem 'puppet-blacksmith'
 
