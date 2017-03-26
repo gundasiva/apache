@@ -13,7 +13,7 @@
   "manifests/parameters.pp": "4a184854d9256fa1311f92bcc142a574",
   "manifests/service.pp": "d5a0a88c01f662f85f77f900c4813beb",
   "manifests/site.pp": "4dd2d3d28da058ad4c44943a97d8d431",
-  "metadata.json": "72a5d60981ac70e5e705325e45435685",
+  "metadata.json": "c90b4585e5febca70e8a80083e5725f5",
   "spec/acceptance/apache_spec.rb": "8d81954f77855d5994539d17032270ae",
   "spec/acceptance/nodesets/centos-7-x64.yml": "3519f8776d65ea6d9f316d36a60d9417",
   "spec/acceptance/nodesets/ubuntu-1404-x64.yml": "7bea46b8016b6d1d93b4c024112ab8a2",
