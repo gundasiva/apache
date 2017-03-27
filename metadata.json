@@ -1,6 +1,6 @@
 {
   "name": "extendingpuppet-apache",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "author": "extendingpuppet",
   "summary": "An apache module",
   "license": "Apache-2.0",
